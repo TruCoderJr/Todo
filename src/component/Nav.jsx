@@ -16,11 +16,11 @@ function Nav() {
           
         <NavLink className={(e)=> e.isActive? "text-red-600 shadow-xl":""} to="/AddTask">+New Task</NavLink>
           
-        <NavLink className={(e)=> e.isActive? "text-red-600 shadow-xl":""} to="/ViewTasks">All Tasks</NavLink>
+        <NavLink className={(e)=> e.isActive? "text-red-600 shadow-xl":""} to="/ViewTask">All Tasks</NavLink>
 
-        <NavLink className={(e)=> e.isActive? "text-red-600 shadow-xl":""} to="/editTasks">Edit Tasks</NavLink>
+        <NavLink className={(e)=> e.isActive? "text-red-600 shadow-xl":""} to="/EditTasks">Edit Tasks</NavLink>
           
-        <NavLink className={(e)=> e.isActive? "text-red-600 shadow-xl":""} to="/deleteTasks">Delete Tasks</NavLink>
+        <NavLink className={(e)=> e.isActive? "text-red-600 shadow-xl":""} to="/DeleteTasks">Delete Tasks</NavLink>
 
         
 
