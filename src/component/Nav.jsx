@@ -18,9 +18,9 @@ function Nav() {
           
         <NavLink className={(e)=> e.isActive? "text-red-600 shadow-xl":""} to="/ViewTask">All Tasks</NavLink>
 
-        <NavLink className={(e)=> e.isActive? "text-red-600 shadow-xl":""} to="/EditTasks">Edit Tasks</NavLink>
+        <NavLink className={(e)=> e.isActive? "text-red-600 shadow-xl":""} to="/EditTask">Edit Tasks</NavLink>
           
-        <NavLink className={(e)=> e.isActive? "text-red-600 shadow-xl":""} to="/DeleteTasks">Delete Tasks</NavLink>
+        <NavLink className={(e)=> e.isActive? "text-red-600 shadow-xl":""} to="/DeleteTask">Delete Tasks</NavLink>
 
         
 
